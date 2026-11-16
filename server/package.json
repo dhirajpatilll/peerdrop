@@ -1,0 +1,17 @@
+{
+  "name": "peerdrop-signaling",
+  "version": "1.0.0",
+  "description": "Signaling server for PeerDrop P2P file sharing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "ws": "^8.17.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
