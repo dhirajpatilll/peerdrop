@@ -8,9 +8,9 @@ export const CONFIG = {
   // ── Signaling ────────────────────────────────────────────
   // Replace with your Render wss:// URL after deployment.
   // For local testing use: ws://localhost:3001 (auto-detected below)
-  SIGNALING_URL: (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'))
-    ? `ws://${window.location.hostname}:3001`
-    : 'export const SIGNALING_URL = "wss://peerdrop-xxxx.onrender.com";',
+SIGNALING_URL: (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'))
+  ? `ws://${window.location.hostname}:3001`
+  : 'wss://peerdrop-xxxx.onrender.com',
 
   // ── Room settings ────────────────────────────────────────
   ROOM_CODE_LENGTH: 6,
